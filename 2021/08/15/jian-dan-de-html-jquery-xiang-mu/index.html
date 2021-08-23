@@ -555,7 +555,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fa fa-calendar"></i> 发表于：2020-08-15 |
+          <i class="fa fa-calendar"></i> 发表于：2021-08-15 |
         </span>
       
 
@@ -599,14 +599,16 @@
 		proxy_set_header Cookie <span class="token string">'你的cookie'</span><span class="token punctuation">;</span>
 		add_header Set<span class="token operator">-</span>Cookie <span class="token string">'你的cookie'</span><span class="token punctuation">;</span>
         server_name  你的服务器名称<span class="token punctuation">;</span>
+
+        location <span class="token operator">/</span>api <span class="token punctuation">&#123;</span>
+            proxy_pass   代理接口地址<span class="token punctuation">;</span>         
+        <span class="token punctuation">&#125;</span>     
+
 		location <span class="token operator">/</span> <span class="token punctuation">&#123;</span>
             root   html页面路径<span class="token punctuation">;</span>
             index  index<span class="token punctuation">.</span>html index<span class="token punctuation">.</span>htm<span class="token punctuation">;</span>
         <span class="token punctuation">&#125;</span> 
-        location <span class="token operator">/</span>api <span class="token punctuation">&#123;</span>
-            proxy_pass   代理接口地址<span class="token punctuation">;</span>         
-        <span class="token punctuation">&#125;</span>     
-    <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>实现功能，yes</p>
 <p>最后放上代码压缩包吧</p>
@@ -634,7 +636,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2020/08/15/jian-dan-de-html-jquery-xiang-mu/" target="_blank" title="jquery项目">http://yubeihai.github.io/2020/08/15/jian-dan-de-html-jquery-xiang-mu/</a>
+    <a href="/2021/08/15/jian-dan-de-html-jquery-xiang-mu/" target="_blank" title="jquery项目">http://yubeihai.github.io/2021/08/15/jian-dan-de-html-jquery-xiang-mu/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -652,41 +654,23 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img lazyload" data-original="/medias/7.jpg" style="background-size: cover; 
-      background-position: center center;">
-    </div>
-    <a href="/2020/09/03/07-vue-router-lu-you/" class="post-nav-link">
-      <div class="title">
-        <i class="fa fa-angle-left"></i> 上一篇:
-        <div class="title-text">Vue学习之路由</div>
-      </div>
-      
-      <!-- <div class="content">
-        什么是路由后端路由对于普通的网站，所有的超链接都是URL地址，所有的URL地址都对应服务器上对应的资源。
-当前端输入ur
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
-    <div class="post-nav-img lazyload" data-original="/medias/11.jpg" style="background-size: cover; 
+    <div class="post-nav-img lazyload" data-original="https://ssyerv1.oss-cn-hangzhou.aliyuncs.com/picture/c080ff4434354e35af9dab0a3ee1b9f7.jpg!sswm" style="background-size: cover; 
       background-position: center center;">
     </div>
-    <a href="/2020/08/15/04-vue-dong-hua/" class="post-nav-link">
+    <a href="/2021/07/20/jian-li/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fa fa-angle-right"></i>
-        <div class="title-text">Vue动画</div>
+        <div class="title-text">我的简历</div>
       </div>
       <!-- <div class="content">
-        前言动画的作用：提高用户的体验，帮助用户更好的理解页面中的功能。
-使用过渡类名实现动画官方文档的截图过渡类名如下：
-
-动
+        
+于北海/男/1996 
+手机：15832203233（
+Email：&#x31;&#49;&#53;&#55;&#x3
       </div> -->
     </a>
   </div>
